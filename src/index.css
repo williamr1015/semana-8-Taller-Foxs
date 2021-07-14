@@ -1,3 +1,16 @@
-@import 'tailwindcss/dist/base.css';
-@import 'tailwindcss/dist/components.css';
-@import 'tailwindcss/dist/utilities.css';
+    @import 'tailwindcss/dist/base.css';
+    @import 'tailwindcss/dist/components.css';
+    @import 'tailwindcss/dist/utilities.css';
+    body {
+        margin: 0px;
+    }
+    
+    .images {
+        height: 320px;
+        background: (ellipse at center, #d4e4ef 0%, #86aecc 100%);
+        border-radius: 30px;
+    }
+    
+    .images img {
+        border-radius: 30px;
+    }
