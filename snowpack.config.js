@@ -5,6 +5,6 @@ module.exports = {
         src: './_dist_',
     },
     buildOptions: {
-        baseUrl: 'https://williamr1015.github.io/Semana-8-Proyecto-Avocados/',
+        baseUrl: 'https://williamr1015.github.io/Semana-8-Taller-Foxs/',
     },
 }
