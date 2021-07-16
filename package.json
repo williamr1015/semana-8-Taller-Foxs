@@ -7,7 +7,7 @@
         "pre-commit": "pretty-quick --staged",
         "install:husky": "husky install",
         "homepage": "https://williamr1015.github.io/Semana-8-Taller-Foxs/",
-        " deploy ": " gh-pages -d build "
+
     },
     "devDependencies": {
         "github": "^14.0.0",
