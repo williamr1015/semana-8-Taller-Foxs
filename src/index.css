@@ -3,6 +3,21 @@
     @import 'tailwindcss/dist/utilities.css';
     body {
         margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background: linear-gradient(to right, #b5bdc8 0%, #828c95 34%, #28343b 53%);
+    }
+    
+    .encabezado h3 {
+        font-size: 2.3rem;
+        color: whitesmoke;
+    }
+    
+    .encabezado p {
+        color: wheat;
+        margin-bottom: 25px;
     }
     
     .images {
@@ -13,4 +28,24 @@
     
     .images img {
         border-radius: 30px;
+    }
+    
+    .button {
+        border: solid 1px white;
+        border-radius: 35px;
+        background-color: whitesmoke;
+        box-shadow: #255a79 3px 4px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .buttonClear {
+        border: solid 1px white;
+        border-radius: 35px;
+        background-color: whitesmoke;
+        box-shadow: #255a79 3px 4px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }

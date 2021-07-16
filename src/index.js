@@ -15,17 +15,32 @@ const createImageNode = () => {
     imagen.width = '320'
     imagen.dataset.src = `https://randomfox.ca/images/${random()}.jpg`
 
+
     container.appendChild(imagen)
     return container;
 };
 
-const nuevaImagen = createImageNode()
+
+
 const mountNode = document.getElementById("images")
 
-const addButton = document.querySelector("button")
+const addButton = document.querySelector("#addButton")
 const addImage = () => {
     const newImage = createImageNode();
     mountNode.append(newImage)
     registerImage(newImage);
 }
 addButton.addEventListener("click", addImage);
+
+const cleanButton = document.querySelector("#cleanButton");
+
+const cleanImages = () => {
+
+    console.log(mountNode.childNodes);
+
+    [...mountNode.childNodes].forEach(child => {
+        child.remove();
+    })
+}
+
+cleanButton.addEventListener("click", cleanImages)
